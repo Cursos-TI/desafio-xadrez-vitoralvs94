@@ -49,13 +49,13 @@ int main() {
 
     // O cavalo se move em "L": 2 para cima + 1 para a direita
     // Primeiro loop (for): movimento para cima
-    for (i = 1; i <= casasBaixoCavalo; i++) {
+    for (i = 1; i <= casasCimaCavalo; i++) {
         printf("Cima\n");
     }
 
     // Segundo loop (while): movimento para a direita
     j = 1;
-    while (j <= casasEsquerdaCavalo) {
+    while (j <= casasDireitaCavalo) {
         printf("Direita\n");
         j++;
     }
